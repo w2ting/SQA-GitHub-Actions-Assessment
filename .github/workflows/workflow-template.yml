@@ -45,6 +45,6 @@ jobs:
         uses: tsickert/discord-webhook@v5.3.0
         with:
           webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          content: "Deployment to main branch successful! 🎉"
+          content: "Deployment to main branch successful! 🎉 test by weiting"
           username: "GitHub Actions"
           avatar-url: "https://discord.com/api/webhooks/1441330277279469578/DsysO-Ce_53G5q8Nw8-PBZi9M5P4Hd9SHdcfDa8qEKrGCmqwVZQDPN8j8y8V3WYfaQl0"
